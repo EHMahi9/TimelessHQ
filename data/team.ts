@@ -7,7 +7,7 @@ export const team: TeamMember[] = [
   { name: "Ahmmad Ishtiak Alam Efty", role: "Frontend Dev", pending: true, image: "/images/team/efty.jpg" },
   { name: "A. B. M. Saiem", role: "Frontend Dev", pending: true, image: "/images/team/saiem.jpg" },
   { name: "Mr. Cala", role: "Frontend Engineer", pending: true, image: "/images/team/cala.jpg" },
-  { name: "Sadman Tanim Sowad", role: "Software Engineer & Security Researcher", location: "Savar", credentials: ["eJPT", "CAPenX", "Bugcrowd: spectreghost"], links: [{ label: "Portfolio", href: "https://sadman-tanim-sowad-protfolio.netlify.app" }, { label: "LinkedIn", href: "https://linkedin.com/in/sadman-tanim-sowad" }] }
+  { name: "Sadman Tanim Sowad", role: "Software Engineer & Security Researcher", location: "Savar", credentials: ["eJPT", "CAPenX", "Bugcrowd: spectreghost"], links: [{ label: "Portfolio", href: "https://sadman-tanim-sowad-protfolio.netlify.app" }, { label: "LinkedIn", href: "https://linkedin.com/in/sadman-tanim-sowad" }], image: "/images/team/sadman.jpg" }
 ];
 
 export const openings = ["Position open", "Position open"];
