@@ -1,0 +1,4 @@
+import Link from "next/link";
+const nav = [["Work","/work"],["Team","/team"],["Services","/services"],["Contact","/contact"]];
+export function Header() { return <header className="border-b rule"><div className="wrap flex min-h-[76px] items-center justify-between gap-4"><Link href="/" className="display text-2xl tracking-tight">Timeless<span className="text-[#C6A15B]">HQ</span></Link><nav aria-label="Main navigation" className="flex flex-wrap justify-end gap-x-4 gap-y-2 text-sm text-[#8B93A7] sm:gap-x-6">{nav.map(([name,href])=><Link className="hover:text-[#E8E3D8]" href={href} key={href}>{name}</Link>)}</nav></div></header> }
+export function Footer() { return <footer className="mt-20 border-t rule"><div className="wrap flex flex-col gap-3 py-8 text-sm text-[#8B93A7] sm:flex-row sm:justify-between"><span>TimelessHQ · Dhaka, Bangladesh</span><a className="hover:text-[#E8E3D8]" href="mailto:TODO">TODO: email</a></div></footer> }

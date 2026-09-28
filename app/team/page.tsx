@@ -1,0 +1,3 @@
+import { openings, team } from "@/data/team";
+import { OpenPlate, TeamPlate } from "@/components/team-plate";
+export default function TeamPage() { return <main className="wrap py-16 sm:py-24"><p className="eyebrow">The collective</p><h1 className="display mt-3 max-w-3xl text-5xl sm:text-6xl">Seven people, a shared standard of care.</h1><p className="mt-6 max-w-2xl leading-7 text-[#8B93A7]">We bring complementary discipline to the same table: systems thinking, interface craft, infrastructure, and security research.</p><div className="mt-14 grid gap-x-10 md:grid-cols-2">{team.map(member=><TeamPlate member={member} key={member.name}/>)}{openings.map((_,i)=><OpenPlate key={i}/>)}</div></main> }

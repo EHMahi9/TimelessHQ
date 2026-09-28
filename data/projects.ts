@@ -1,0 +1,7 @@
+export type Project = { title: string; people: string; context: string; problem: string; approach: string; outcome: string; href?: string };
+export const projects: Project[] = [
+  { title: "Greenery Institute Portal & CMS", people: "Nafis (portal) + Sami (CMS backend)", context: "A public institute portal paired with a content-management backend.", problem: "A unified web presence and manageable publishing workflow were needed.", approach: "Portal interface and CMS backend developed as connected workstreams.", outcome: "[TODO: outcome metric]", href: "https://greenery.institute" },
+  { title: "E-commerce backend", people: "Sami", context: "Backend foundation for an e-commerce product.", problem: "The product needed an operational API and deployable infrastructure.", approach: "JWT REST APIs, Docker, AWS EC2, and NGINX.", outcome: "[TODO: outcome metric]" },
+  { title: "ArtHub", people: "Nafis", context: "A marketplace for artists and collectors.", problem: "A focused place was needed for the two sides of the art market to meet.", approach: "A marketplace experience built for artists and collectors.", outcome: "[TODO: outcome metric]", href: "https://arthub-client-teal.vercel.app" },
+  { title: "NoboGhat", people: "Mahi", context: "An inland waterway logistics platform.", problem: "Waterway logistics required a purpose-built digital platform.", approach: "A platform shaped around inland waterway logistics.", outcome: "[TODO: outcome metric]", href: "https://github.com/EHMahi9/NoboGhat-Bangladesh" }
+];
